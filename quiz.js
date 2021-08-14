@@ -1,6 +1,6 @@
 const quixForm=document.querySelector('.quiz-form');
 const submitButton=document.querySelector('#submit-button');
-const outputText=document.querySelector('#output-text');
+const outputText=document.querySelector('#output-txt');
 
 const correctAns=['Yes','Yes','No','30°','75°','equilateral','0','acute','scalene','3'];
 function calculateScore()
@@ -16,7 +16,7 @@ function calculateScore()
     index=index + 1;
 }
 
-    outputText.innerText="Your Score is " + count;
+    outputText.innerText="Your  Score  is  " + count + ".";
 }
 
 

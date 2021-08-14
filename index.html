@@ -9,18 +9,20 @@
 
 </head>
 <body>
-    <nav>
-        <a href="index.html" >Is Triangle?</a>
-        <a href="quiz.html" >Triangle-Quiz</a>
-        <a href="hypotenuse.html" >Calculate Hypotenuse</a>
-        <a href="area.html" >Calculate Area</a>
+    
+    <h1>Fun With Triangles</h1>
+    <nav class="container">
+        <a class="container-link"href="index.html" >Is Triangle?</a>
+        <a class="container-link" href="quiz.html" >Triangle-Quiz</a>
+        <a class="container-link" href="hypotenuse.html" >Calculate Hypotenuse</a>
+        <a class="container-link" href="area.html" >Calculate Area</a>
      </nav>
-    <h1>Is Triangle?</h1>
-    <label for="first-angle">angle(in degress):</label>
+    <h3>A triangle is formed when the sum of angles of a triangle is 180°.</h3>
+    <label for="first-angle" class="label-angle">Enter Angle(in degress):</label>
     <input type="number" class="angle-input"> </input>
-    <label for="second-angle">angle(in degress):</label>
+    <label for="second-angle" class="label-angle">Enter Angle(in degress):</label>
     <input type="number" class="angle-input"> </input>
-    <label for="third-angle"></label>angle(in degress):</label>
+    <label for="third-angle" class="label-angle">Enter Angle(in degress):</label>
     <input type="number" class="angle-input"> </input>
     <button id="submit-button">Is Triangle?</button>
     <div id="output-txt"></div>

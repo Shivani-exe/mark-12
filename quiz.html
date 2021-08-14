@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link href="styles.jss" ref="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <a href="index.html" >Is Triangle?</a>
-        <a href="quiz.html" >Triangle-Quiz</a>
-        <a href="hypotenuse.html" >Calculate Hypotenuse</a>
-        <a href="area.html" >Calculate Area</a>
+    <h1>Fun With Triangles-Quiz</h1>
+    <nav class="container">
+        <a class="container-link"href="index.html" >Is Triangle?</a>
+        <a class="container-link" href="quiz.html" >Triangle-Quiz</a>
+        <a class="container-link" href="hypotenuse.html">Calculate Hypotenuse</a>
+        <a class="container-link" href="area.html" >Calculate Area</a>
      </nav>
-    <h1>Triangle-Quiz</h1>
+     <h3>Now prove your knowledge of triangle :)</h3>
     <form class="quiz-form">
         <div class="question-container">
             <p>
@@ -100,7 +101,7 @@
 
     </form>
     <button id="submit-button">Submit</button>
-    <div id="output-text"></div>
+    <div id="output-txt"></div>
     <script src="quiz.js" type="text/javascript"></script>
 </body>
 </html>

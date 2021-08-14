@@ -16,7 +16,7 @@ function isTriangle(){
         if(sum === 180)
         outputTxt.innerText= "Yay!! It forms a triangle.";
         else
-        outputTxt.innerText = "No No, it does not form a triangle.";
+        outputTxt.innerText = "No, it does not form a triangle.";
     
 }
 

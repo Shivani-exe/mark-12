@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculate Hypotenuse</title>
-    <link href="styles.css" ref="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <a href="index.html" >Is Triangle?</a>
-        <a href="quiz.html" >Triangle-Quiz</a>
-        <a href="hypotenuse.html" >Calculate Hypotenuse</a>
-        <a href="area.html" >Calculate Area</a>
+    <h1>Fun With Triangles-Hypotenuse</h1>
+    <nav class="container">
+        <a class="container-link"href="index.html" >Is Triangle?</a>
+        <a class="container-link" href="quiz.html" >Triangle-Quiz</a>
+        <a class="container-link" href="hypotenuse.html" >Calculate Hypotenuse</a>
+        <a class="container-link" href="area.html" >Calculate Area</a>
      </nav>
-    <h1>Calculate Hypotenuse</h1>
-    <label for="first-side">a=</label>
-    <input type="number" class="side"> </input>
-    <label for="first-side">b=</label>
-    <input type="number" class="side"> </input>
-    <button id="submit-button">Calculate Hypotenuse</button>
-    <div id="output-box"></div>
+    <h3>To calculate Hypotenuse of triangle : a^2 + b^2 = c^2</h3>
+    <label for="first-side" class="label-angle">Enter side a=</label>
+    <input type="number" class="angle-input"> </input>
+    <label for="second-side" class="label-angle">Enter side b=</label>
+    <input type="number" class="angle-input"> </input>
+    <button id="submit-button-hypo">Calculate Hypotenuse</button>
+    <div id="output-txt"></div>
     <script src="hypotenuse.js" type="text/javascript"></script>
 </body>
 </html>

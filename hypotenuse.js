@@ -1,6 +1,6 @@
-const inputSide=document.querySelectorAll('.side');
-const submitButton=document.querySelector('#submit-button');
-const outputText=document.querySelector('#output-box');
+const inputSide=document.querySelectorAll('.angle-input');
+const submitButton=document.querySelector('#submit-button-hypo');
+const outputText=document.querySelector('#output-txt');
 
 
 function calculate(side1,side2){
@@ -10,7 +10,7 @@ function calculate(side1,side2){
 
 function calculateHypotenuse(){
    const hypotenuse=calculate(Number(inputSide[0].value),Number(inputSide[1].value));
-   outputText.innerHTML = "The length of hypotenuse is " + hypotenuse;
+   outputText.innerHTML = "The length of hypotenuse is " + hypotenuse + ".";
 }
 
 submitButton.addEventListener('click',calculateHypotenuse);
